@@ -11,3 +11,5 @@ const productSchema = new mongoose.Schema({
     onSale: {type: Boolean, default: false},
 
 });
+
+export const productModel = mongoose.model('Product', productSchema);

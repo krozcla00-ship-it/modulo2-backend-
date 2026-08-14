@@ -1,15 +1,28 @@
-# 🚀 Módulo 2 - Backend
+# 🚀 Proyecto ALY - Backend API
 
-Este repositorio contiene la API y la lógica del lado del servidor para el proyecto en desarrollo.
-Desarrollado con Node.js y gestionado de forma eficiente utilizando pnpm.
+![Node.js](https://shields.io)
+![Express](https://shields.io)
+![MongoDB](https://shields.io)
+![pnpm](https://shields.io)
 
-## Autor
-EDGAR JOSE ALAPEZ PAEZ
+Backend para la **tienda virtual de ropa femenina**. Desarrollado con arquitectura modular utilizando Node.js, Express, Mongoose y gestionado de forma eficiente con `pnpm`.
 
-## Requisitos Previos
-Necesitas tener instalado en tu sistema:
-*   [Node.js](https://nodejs.org) (Versión LTS recomendada)
-*   [MongoDB](https://mongodb.com) (Instalación local o cuenta en Atlas)
+## 🧑‍💻 Autor
+* **Desarrollador:** EDGAR JOSE ALAPEZ PAEZ
+* **Contacto:** Paez.edgar04@gmail.com
+
+## 🛠️ Tecnologías Principales
+* **Entorno de Ejecución:** Node.js (Estructura de Módulos ES - `import/export`)
+* **Framework:** Express v5.2.1 (Manejo de rutas y middlewares)
+* **Base de Datos:** MongoDB & Mongoose (Modelado de datos)
+* **Seguridad:** Bcryptjs (Cifrado de contraseñas) y Jsonwebtoken (Autenticación JWT)
+* **Herramientas de Desarrollo:** Nodemon (Reinicio automático del servidor)
+
+## 📋 Requisitos Previos
+Antes de iniciar, asegúrate de tener instalado:
+* **Node.js** (Versión 20.x o superior recomendada)
+* **pnpm** (Gestor de paquetes del proyecto)
+* **MongoDB** (Instancia local activa o cuenta en MongoDB Atlas)
 
 ## Instrucciones de Instalación y Ejecución
 
@@ -28,5 +41,3 @@ node app.js
 ##  Estado del Proyecto
 Desarrollo en Curso.
 
-## Información de Contacto
-*   Correo: Paez.edgar04@gmail.com

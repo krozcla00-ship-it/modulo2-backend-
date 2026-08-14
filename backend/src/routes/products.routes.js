@@ -2,6 +2,7 @@ import { postProduct } from "../controllers/products.controllers.js";
 import { getProducts} from "../controllers/products.controllers.js";
 import { putProductById } from "../controllers/products.controllers.js";
 import { deleteProductById } from "../controllers/products.controllers.js";
+import { updateStockAfterSale } from "../controllers/products.controllers.js";
 import express from "express";
 
 
@@ -12,3 +13,4 @@ productsRouter.post("/crear", postProduct);
 productsRouter.get("/mostrar", getProducts);
 productsRouter.put("/actualizar/:id", putProductById);
 productsRouter.delete("/eliminar/:id", deleteProductById);
+productsRouter.patch("/vender-variante/:id", updateStockAfterSale);

@@ -21,5 +21,5 @@ app.use('/productos', productsRouter)
 
 // iniciar servidor
 app.listen(port, () => {
-    console.log(`servidor activo en http://localhost:${port}`)
-})
+    console.log(`servidor activo en http://localhost:${port}`);
+});
